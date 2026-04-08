@@ -2,7 +2,7 @@
 
 A modern, fast-paced casino-style Keno web application branded for **CrownCases.GG**. Built with **Python (Flask)** and **SQLite**, featuring a sleek gold-and-dark UI, real-time statistics, and immersive sound effects.
 
-![CrownCases Keno Screenshot](https://image2url.com/r2/default/images/1774907358927-33128cbe-1a1a-45d9-baa6-c7d961eb664a.png)
+![CrownCases Keno Screenshot](https://postimg.cc/S2nSVjTz)
 
 ---
 
