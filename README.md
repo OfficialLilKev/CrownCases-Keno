@@ -1,8 +1,10 @@
 # 👑 CrownCases Keno
 
-A modern, fast-paced casino-style Keno web application branded for **CrownCases.GG**. Built with **Python (Flask)** and **SQLite**, featuring a sleek gold-and-dark UI, real-time statistics, and immersive sound effects.
+<p align="center">
+  <img src="crown.png" width="700"/>
+</p>
 
-![CrownCases Keno Screenshot]([https://postimg.cc/S2nSVjTz](https://ibb.co/dsMC9hyx))
+A modern, fast-paced casino-style Keno web application branded for **CrownCases.GG**. Built with **Python (Flask)** and **SQLite**, featuring a sleek gold-and-dark UI, real-time statistics, and immersive sound effects.
 
 ---
 
@@ -62,16 +64,6 @@ The database (`crowncases_keno.db`) is created automatically on first run with a
 
 ## 📂 Project Structure
 
-```
-CrownCases_Keno/
-│
-├── app.py                    # Flask backend — game logic, DB handler, API routes
-├── crowncases_keno.db        # Auto-generated SQLite database (balance & history)
-├── README.md                 # This file
-└── templates/
-    └── index.html            # Complete frontend (UI, styles, scripts)
-```
-
 ---
 
 ## 🎲 Payout Table
@@ -94,7 +86,3 @@ CrownCases_Keno/
 ## 🔒 Provably Fair
 
 Every game result returns a `hash` field — a SHA-256 digest of the server seed combined with the drawn numbers. This allows verification that results were not manipulated after the fact.
-
----
-
-*CrownCases Keno — Built for CrownCases.GG*
